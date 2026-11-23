@@ -34,7 +34,7 @@ You need **Python 3.11 or newer**. No API key is needed for the demo.
 ### 1. Get the code
 
 ```
-git clone <repo-url> bilingual-call-qa-scorer
+git clone https://github.com/RawBud11/bilingual-call-qa-scorer.git bilingual-call-qa-scorer
 cd bilingual-call-qa-scorer
 ```
 
@@ -43,7 +43,7 @@ cd bilingual-call-qa-scorer
 ```powershell
 mkdir C:\dev
 cd C:\dev
-git clone <repo-url> bilingual-call-qa-scorer
+git clone https://github.com/RawBud11/bilingual-call-qa-scorer.git bilingual-call-qa-scorer
 cd bilingual-call-qa-scorer
 ```
 
