@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T014
+agent: Dana P.
+reason: fees
+channel: phone
+
+Agente: ¿Aló? Esta llamada es grabada con fines de calidad.
+Cliente: ¿Por qué me cobraron una comisión de 4.99 dólares en mi transferencia?
+Agente: Lamento lo que pasó, entiendo lo estresante que es. Déjame revisar tu cuenta.
+Cliente: Ok.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Esto es lo que sigue: te envío la tabla de comisiones por correo. Te llega una actualización en 3 días hábiles. ¿Te queda claro?
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

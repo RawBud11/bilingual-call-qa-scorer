@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T019
+agent: Marco T.
+reason: identity_verification
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Marco. How can I help you today?
+Customer: The app keeps rejecting my ID photo.
+Agent: I'm sorry about that, let's sort it out together. Can you tell me your card PIN?
+Customer: Um, I'm not sure I should share that.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: We'll look into it at some point.
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

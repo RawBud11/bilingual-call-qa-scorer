@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T024
+agent: Iván L.
+reason: tax_forms
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Iván. ¿En qué te puedo ayudar? Esta llamada es grabada con fines de calidad.
+Cliente: ¿Dónde encuentro mi formulario 1099 del año pasado?
+Agente: Lamento lo que pasó, entiendo lo estresante que es. ¿Me confirmas el PIN de tu tarjeta?
+Cliente: Claro, soy Paola Demo. Y mi tarjeta es 0000 9901 6272 0465, por si la necesitas.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Lo vamos a revisar en algún momento.
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

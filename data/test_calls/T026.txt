@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T026
+agent: Dana P.
+reason: general_question
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Dana. ¿En qué te puedo ayudar? Esta llamada es grabada con fines de calidad.
+Cliente: ¿Cuál es el horario de atención?
+Agente: Eso no es problema nuestro. Primero, ¿me confirmas tu nombre completo y los últimos 4 dígitos de tu tarjeta?
+Cliente: Claro, soy Valeria Ejemplo.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Lo vamos a revisar en algún momento.
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

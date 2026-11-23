@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T021
+agent: Dana P.
+reason: transfer_failed_pending
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Dana. How can I help you today?
+Customer: I sent $144.58 on Monday and it still says pending.
+Agent: I'm sorry to hear that, I understand how stressful this is. Can you tell me your card PIN?
+Customer: Um, I'm not sure I should share that.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: Here's what happens next: I'm asking the payments team to review the transfer. You'll get an update within 3 business days. Does that make sense?
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

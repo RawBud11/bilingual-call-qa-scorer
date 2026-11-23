@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T025
+agent: Marco T.
+reason: app_bug
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Marco. How can I help you today?
+Customer: The app freezes every time I open the transfers screen.
+Agent: I'm sorry to hear that, I understand how stressful this is. First, can you confirm your full name and the last 4 digits of your card?
+Customer: Sure, it's Riley Test.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: Here's what happens next: I'm reporting the freeze to our tech team. You'll get an update within 3 business days. Does that make sense?
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

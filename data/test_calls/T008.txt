@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T008
+agent: Sofía R.
+reason: general_question
+channel: phone
+
+Agente: ¿Aló? Esta llamada es grabada con fines de calidad.
+Cliente: ¿Cuál es el horario de atención?
+Agente: Lamento lo que pasó, entiendo lo estresante que es. Antes de revisar tu cuenta, ¿me confirmas tu nombre completo y tu fecha de nacimiento?
+Cliente: Claro, soy Paola Demo. Y mi tarjeta es 0000 1051 8347 3829, por si la necesitas.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Esto es lo que sigue: la línea atiende de 8 a. m. a 8 p. m., hora del este. Te llega una actualización en 3 días hábiles. ¿Te queda claro?
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

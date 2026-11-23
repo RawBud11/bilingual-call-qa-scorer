@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T022
+agent: Iván L.
+reason: charge_dispute
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Iván. ¿En qué te puedo ayudar?
+Cliente: Hay un cargo de $470.09 que no reconozco y quiero disputarlo.
+Agente: Sí, eso pasa. Antes de revisar tu cuenta, ¿me confirmas tu nombre completo y tu fecha de nacimiento?
+Cliente: Claro, soy Andrés Prueba.
+Agente: Gracias. Ya veo tu cuenta. Te cuento que nunca te vamos a pedir tu PIN ni tu contraseña.
+Cliente: ¿Y ahora qué pasa?
+Agente: Lo vamos a revisar en algún momento.
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

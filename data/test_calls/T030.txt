@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T030
+agent: Sofía R.
+reason: transfer_failed_pending
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Sofía. ¿En qué te puedo ayudar? Esta llamada es grabada con fines de calidad.
+Cliente: Mandé $216.27 el lunes y todavía sale pendiente.
+Agente: Siento mucho la molestia, lo resolvemos juntos. Primero, ¿me confirmas tu nombre completo y los últimos 4 dígitos de tu tarjeta?
+Cliente: Claro, soy Andrés Prueba. Y mi tarjeta es 0000 9894 1343 5240, por si la necesitas.
+Agente: Gracias. Ya veo tu cuenta. Te cuento que nunca te vamos a pedir tu PIN ni tu contraseña.
+Cliente: ¿Y ahora qué pasa?
+Agente: Lo vamos a revisar en algún momento.
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

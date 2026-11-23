@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T010
+agent: Marco T.
+reason: identity_verification
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Marco. ¿En qué te puedo ayudar?
+Cliente: La app sigue rechazando la foto de mi identificación.
+Agente: Eso no es problema nuestro. Antes de revisar tu cuenta, ¿me confirmas tu nombre completo y tu fecha de nacimiento?
+Cliente: Claro, soy Andrés Prueba. Y mi tarjeta es 0000 2677 3602 6064, por si la necesitas.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Esto es lo que sigue: envío la foto de tu identificación al equipo de verificación. Te llega una actualización en 3 días hábiles. ¿Te queda claro?
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

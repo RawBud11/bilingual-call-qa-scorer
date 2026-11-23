@@ -1,0 +1,83 @@
+Captured output (Windows 11, PowerShell, Python 3.14, no API key, demo mode).
+All calls are synthetic. Puentara is a fictional company.
+AI answers in demo mode are hand-written fixtures, not real model output.
+
+> python score.py
+Demo mode: AI answers are hand-written fixtures (written by a person to show the format, not real model output). No API key found.
+
+Puentara (fictional company) - call QA review
+Scored 6 calls from data\sample_calls
+
+  Call    Agent        Lang    Suggested score                                Flags
+  C001    Dana P.      en      100/100                                        none
+  C002    Marco T.     es      0/100 (provisional, auto-fail flag to confirm) AUTO-FAIL FLAG: asked for the PIN (L7), reviewer must confirm
+  C003    Dana P.      en      85/100                                         OUTCOME PROMISE: promised a result on a dispute call (L9), reviewer should check
+  C004    Sofía R.     es      100/100                                        none
+  C005    Sofía R.     en      72/100                                         none
+  C006    Marco T.     es      100/100 (provisional, 1 item to review)        Needs review (not scored yet): Resolution and next steps
+
+Per agent
+  Agent           Calls      Avg suggested     To confirm    Flags  Most missed items
+  Dana P.             2             92/100              0        1  Required disclosures (1), Resolution and next steps (1)
+  Marco T.            2             50/100              2        1  Identity verification (1), Sensitive-data request (1)
+  Sofía R.            2             86/100              0        0  Greeting (1), Empathy (1)
+
+Card numbers or codes masked: 1
+Suggested scores only. Reviewer decision: pending for every call.
+Review page: output\qa_review.html
+Scores CSV:  output\qa_scores.csv
+
+> python score.py --report-lang es
+Modo demo: las respuestas de la IA son ejemplos escritos a mano en fixtures/ (los escribió una persona para mostrar el formato, no son respuestas reales del modelo). No se encontró una clave de API.
+
+Puentara (empresa ficticia) - revisión de calidad de llamadas
+Se evaluaron 6 llamadas de data\sample_calls
+
+  Llamada Agente       Idioma  Puntaje sugerido                                    Alertas
+  C001    Dana P.      en      100/100                                             ninguno
+  C002    Marco T.     es      0/100 (provisional, alerta auto-fail por confirmar) ALERTA AUTO-FAIL: pidió el PIN (L7), un revisor debe confirmarlo
+  C003    Dana P.      en      85/100                                              PROMESA DE RESULTADO: prometió un resultado en una disputa (L9), un revisor debe revisarlo
+  C004    Sofía R.     es      100/100                                             ninguno
+  C005    Sofía R.     en      72/100                                              ninguno
+  C006    Marco T.     es      100/100 (provisional, 1 punto por revisar)          Por revisar (todavía sin puntaje): Resolución y próximos pasos
+
+Por agente
+  Agente       Llamadas  Promedio sugerido  Por confirmar  Alertas  Puntos más fallados
+  Dana P.             2             92/100              0        1  Avisos obligatorios (1), Resolución y próximos pasos (1)
+  Marco T.            2             50/100              2        1  Verificación de identidad (1), Solicitud de datos sensibles (1)
+  Sofía R.            2             86/100              0        0  Saludo (1), Empatía (1)
+
+Números de tarjeta o códigos ocultos: 1
+Solo son puntajes sugeridos. Decisión del revisor: pendiente en todas las llamadas.
+Página de revisión: output\qa_review.html
+CSV de puntajes:    output\qa_scores.csv
+
+> python evaluate.py
+Labeled test set: synthetic, template-generated, high by construction, not real-world accuracy.
+Mode: rules layer only (demo, no API calls). Run with --live to add AI agreement numbers.
+
+  Calls in test set                                    40
+  Sensitive-data request detection                     precision 10/10 (100.0%)  recall 10/10 (100.0%)
+  Outcome-promise detection (disputes)                 precision 2/2 (100.0%)  recall 2/2 (100.0%)
+  Recording notice detection                           precision 26/26 (100.0%)  recall 26/26 (100.0%)
+  Dispute timeline detection                           precision 2/2 (100.0%)  recall 2/2 (100.0%)
+  Right kind (PIN, card, code) when caught             10/10 (100.0%)
+  Trap calls wrongly flagged (customer reads a card number, or agent says "we never ask"): 0/10 (0.0%)
+
+Misses (0)
+  none
+
+> python evaluate.py --summary-lang es
+Conjunto de prueba etiquetado: datos sintéticos, generados con plantillas, altos por construcción; no es la precisión con llamadas reales.
+Modo: solo la capa de reglas (demo, sin llamadas a la API). Usa --live para agregar el acuerdo de la IA.
+
+  Llamadas en el conjunto de prueba                    40
+  Detección de solicitudes de datos sensibles          precisión 10/10 (100.0%)  exhaustividad 10/10 (100.0%)
+  Detección de promesas de resultado (disputas)        precisión 2/2 (100.0%)  exhaustividad 2/2 (100.0%)
+  Detección del aviso de grabación                     precisión 26/26 (100.0%)  exhaustividad 26/26 (100.0%)
+  Detección del plazo en disputas                      precisión 2/2 (100.0%)  exhaustividad 2/2 (100.0%)
+  Tipo correcto (PIN, tarjeta, código) al detectarla   10/10 (100.0%)
+  Trampas marcadas por error (el cliente lee su tarjeta o el agente dice "nunca te pedimos"): 0/10 (0.0%)
+
+No acertados (0)
+  ninguno

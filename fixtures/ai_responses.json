@@ -1,0 +1,669 @@
+{
+  "_about": "Sample AI answers for data/sample_calls, used in demo mode (no API key). source=hand-written: a person wrote it to show the format; it is NOT real model output. source=recorded: saved from a real API call with --live --record. C006 resolution is deliberately broken (its quote is not in line L9) to show the evidence check sending an item to review. Puentara is a fictional company.",
+  "responses": {
+    "C001": {
+      "en": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verified full name, date of birth and an in-app prompt before discussing the card.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "can you tell me your full name and date of birth"
+                },
+                {
+                  "line": "L5",
+                  "quote": "I also just sent a confirmation prompt to your Puentara app"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Only asked for allowed factors.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "can you tell me your full name and date of birth"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Acknowledged the stress of a lost card and the customer's worry.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "I'm sorry, that's stressful"
+                },
+                {
+                  "line": "L9",
+                  "quote": "That makes sense"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "met",
+              "rationale": "Froze the card, transferred to the security team, gave the delivery time and checked understanding.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "I'm transferring you to our security team now"
+                },
+                {
+                  "line": "L11",
+                  "quote": "Does that sound clear?"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "es": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verificó nombre completo, fecha de nacimiento y confirmación en la app antes de hablar de la tarjeta.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "can you tell me your full name and date of birth"
+                },
+                {
+                  "line": "L5",
+                  "quote": "I also just sent a confirmation prompt to your Puentara app"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Solo pidió factores permitidos.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "can you tell me your full name and date of birth"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Reconoció lo estresante de perder la tarjeta y la preocupación del cliente.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "I'm sorry, that's stressful"
+                },
+                {
+                  "line": "L9",
+                  "quote": "That makes sense"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "met",
+              "rationale": "Congeló la tarjeta, transfirió al equipo de seguridad, dio el plazo de entrega y confirmó que el cliente entendió.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "I'm transferring you to our security team now"
+                },
+                {
+                  "line": "L11",
+                  "quote": "Does that sound clear?"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "C002": {
+      "en": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "not_met",
+              "rationale": "Discussed the balance after only an email, then asked for the card PIN, which is not an allowed factor.",
+              "evidence": [
+                {
+                  "line": "L5",
+                  "quote": "Tienes un saldo de 230 dólares y un pago pendiente"
+                },
+                {
+                  "line": "L7",
+                  "quote": "dime tu PIN de la tarjeta"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "not_met",
+              "rationale": "The agent asked the customer for the card PIN.",
+              "evidence": [
+                {
+                  "line": "L7",
+                  "quote": "dime tu PIN de la tarjeta"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "partial",
+              "rationale": "Polite, but does not acknowledge that the customer is locked out.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "¿Cuál es tu correo registrado?"
+                },
+                {
+                  "line": "L11",
+                  "quote": "Está bien."
+                }
+              ]
+            },
+            "resolution": {
+              "status": "partial",
+              "rationale": "Sends a reset link with a rough time, but does not check that the customer understood.",
+              "evidence": [
+                {
+                  "line": "L11",
+                  "quote": "Te voy a enviar un enlace para restablecer tu contraseña a tu correo"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "es": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "not_met",
+              "rationale": "Habló del saldo solo con el correo y después pidió el PIN de la tarjeta, que no es un factor permitido.",
+              "evidence": [
+                {
+                  "line": "L5",
+                  "quote": "Tienes un saldo de 230 dólares y un pago pendiente"
+                },
+                {
+                  "line": "L7",
+                  "quote": "dime tu PIN de la tarjeta"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "not_met",
+              "rationale": "El agente le pidió al cliente el PIN de la tarjeta.",
+              "evidence": [
+                {
+                  "line": "L7",
+                  "quote": "dime tu PIN de la tarjeta"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "partial",
+              "rationale": "Es cortés, pero no reconoce que el cliente no puede entrar a su cuenta.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "¿Cuál es tu correo registrado?"
+                },
+                {
+                  "line": "L11",
+                  "quote": "Está bien."
+                }
+              ]
+            },
+            "resolution": {
+              "status": "partial",
+              "rationale": "Envía un enlace para restablecer la contraseña con un tiempo aproximado, pero no confirma que el cliente entendió.",
+              "evidence": [
+                {
+                  "line": "L11",
+                  "quote": "Te voy a enviar un enlace para restablecer tu contraseña a tu correo"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "C003": {
+      "en": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verified full name, last 4 digits and an app prompt before looking at the charge.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "can you confirm your full name and the last 4 digits of your card"
+                },
+                {
+                  "line": "L5",
+                  "quote": "I also sent a confirmation prompt to your app"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Asked only for the last 4 digits, which is allowed.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "the last 4 digits of your card"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Apologized and acknowledged the unknown charge.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "I'm sorry about that, let's look into it"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "partial",
+              "rationale": "Gives a timeline and a dispute number, but does not check that the customer understood.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "The dispute team reviews it within 10 business days"
+                },
+                {
+                  "line": "L11",
+                  "quote": "You'll get an email with your dispute number today"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "es": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verificó nombre completo, últimos 4 dígitos y confirmación en la app antes de revisar el cargo.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "can you confirm your full name and the last 4 digits of your card"
+                },
+                {
+                  "line": "L5",
+                  "quote": "I also sent a confirmation prompt to your app"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Solo pidió los últimos 4 dígitos, que está permitido.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "the last 4 digits of your card"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Se disculpó y reconoció el cargo desconocido.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "I'm sorry about that, let's look into it"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "partial",
+              "rationale": "Da un plazo y un número de disputa, pero no confirma que el cliente entendió.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "The dispute team reviews it within 10 business days"
+                },
+                {
+                  "line": "L11",
+                  "quote": "You'll get an email with your dispute number today"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "C004": {
+      "en": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verified full name, date of birth and last 4 digits before discussing the login problem.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "me confirmas tu nombre completo y tu fecha de nacimiento"
+                },
+                {
+                  "line": "L5",
+                  "quote": "los últimos 4 dígitos de tu tarjeta"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Reminded the customer that Puentara never asks for passwords or codes by phone.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "nunca te vamos a pedir tu contraseña ni códigos por teléfono"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Acknowledged how frustrating it is to lose access.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Entiendo, es frustrante quedarse sin acceso"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "met",
+              "rationale": "Sent a link with clear steps, gave a 24-hour follow-up and checked understanding.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "Te acabo de enviar un enlace a tu correo registrado"
+                },
+                {
+                  "line": "L11",
+                  "quote": "¿Te quedó claro el proceso?"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "es": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verificó nombre completo, fecha de nacimiento y últimos 4 dígitos antes de hablar del problema de acceso.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "me confirmas tu nombre completo y tu fecha de nacimiento"
+                },
+                {
+                  "line": "L5",
+                  "quote": "los últimos 4 dígitos de tu tarjeta"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Le recordó al cliente que Puentara nunca pide contraseñas ni códigos por teléfono.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "nunca te vamos a pedir tu contraseña ni códigos por teléfono"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Reconoció lo frustrante que es quedarse sin acceso.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Entiendo, es frustrante quedarse sin acceso"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "met",
+              "rationale": "Envió un enlace con pasos claros, dio un seguimiento de 24 horas y confirmó que el cliente entendió.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "Te acabo de enviar un enlace a tu correo registrado"
+                },
+                {
+                  "line": "L11",
+                  "quote": "¿Te quedó claro el proceso?"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "C005": {
+      "en": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verified name, date of birth and email before explaining the fee.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Full name and date of birth?"
+                },
+                {
+                  "line": "L5",
+                  "quote": "And the email on the account?"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Only asked for allowed factors.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Full name and date of birth?"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "not_met",
+              "rationale": "Does not acknowledge that the customer is upset and answers curtly.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Fees are in the terms."
+                },
+                {
+                  "line": "L9",
+                  "quote": "No. It's a standard fee."
+                }
+              ]
+            },
+            "resolution": {
+              "status": "partial",
+              "rationale": "Points to the fee table, but gives no next step for the complaint and does not check understanding.",
+              "evidence": [
+                {
+                  "line": "L11",
+                  "quote": "You can check the fee table in the app under Help"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "es": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verificó nombre, fecha de nacimiento y correo antes de explicar la comisión.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Full name and date of birth?"
+                },
+                {
+                  "line": "L5",
+                  "quote": "And the email on the account?"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "Solo pidió factores permitidos.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Full name and date of birth?"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "not_met",
+              "rationale": "No reconoce que el cliente está molesto y responde de forma cortante.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Fees are in the terms."
+                },
+                {
+                  "line": "L9",
+                  "quote": "No. It's a standard fee."
+                }
+              ]
+            },
+            "resolution": {
+              "status": "partial",
+              "rationale": "Indica dónde ver la tabla de comisiones, pero no da un siguiente paso para el reclamo ni confirma que el cliente entendió.",
+              "evidence": [
+                {
+                  "line": "L11",
+                  "quote": "You can check the fee table in the app under Help"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "C006": {
+      "en": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verified full name and registered email before looking at the transfer.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "me confirmas tu nombre completo y tu correo registrado"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "The customer offered a card number; the agent stopped them and did not ask for it.",
+              "evidence": [
+                {
+                  "line": "L5",
+                  "quote": "nunca te lo vamos a pedir por teléfono"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Apologized for the wait and acknowledged why the money matters.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Lamento la espera, entiendo que es dinero que ella necesita"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "met",
+              "rationale": "Explained the review, gave a timeline and checked understanding.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "te va a llegar el dinero hoy mismo"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "es": {
+        "source": "hand-written",
+        "response": {
+          "items": {
+            "identity_verification": {
+              "status": "met",
+              "rationale": "Verificó nombre completo y correo registrado antes de revisar la transferencia.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "me confirmas tu nombre completo y tu correo registrado"
+                }
+              ]
+            },
+            "sensitive_data": {
+              "status": "met",
+              "rationale": "El cliente ofreció el número de su tarjeta; el agente lo detuvo y no se lo pidió.",
+              "evidence": [
+                {
+                  "line": "L5",
+                  "quote": "nunca te lo vamos a pedir por teléfono"
+                }
+              ]
+            },
+            "empathy": {
+              "status": "met",
+              "rationale": "Se disculpó por la espera y reconoció por qué ese dinero es importante.",
+              "evidence": [
+                {
+                  "line": "L3",
+                  "quote": "Lamento la espera, entiendo que es dinero que ella necesita"
+                }
+              ]
+            },
+            "resolution": {
+              "status": "met",
+              "rationale": "Explicó la revisión, dio un plazo y confirmó que el cliente entendió.",
+              "evidence": [
+                {
+                  "line": "L9",
+                  "quote": "te va a llegar el dinero hoy mismo"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

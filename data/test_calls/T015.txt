@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T015
+agent: Marco T.
+reason: tax_forms
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Marco. How can I help you today? This call is recorded for quality.
+Customer: Where can I find my 1099 form for last year?
+Agent: Yeah, that happens. To verify you, what's your PIN?
+Customer: Sure, it's Sam Placeholder. And my card number is 0000 6204 5053 3158, in case you need it.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: Here's what happens next: your 1099 is in the app under Documents. You'll get an update within 3 business days. Does that make sense?
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

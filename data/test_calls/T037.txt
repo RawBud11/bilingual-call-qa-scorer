@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T037
+agent: Iván L.
+reason: identity_verification
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Iván. How can I help you today? This call is recorded for quality.
+Customer: The app keeps rejecting my ID photo.
+Agent: I'm sorry to hear that, I understand how stressful this is. To verify you, can you give me your full card number?
+Customer: Um, I'm not sure I should share that.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: Here's what happens next: I'm sending your ID photo to our verification team. You'll get an update within 3 business days. Does that make sense?
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

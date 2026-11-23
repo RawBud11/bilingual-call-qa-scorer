@@ -1,0 +1,20 @@
+# Synthetic call transcript for the demo. Puentara is a fictional company; every name, email and number is made up.
+call_id: C002
+agent: Marco T.
+reason: account_access
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Marco. Esta llamada puede ser grabada con fines de calidad. ¿En qué te puedo ayudar?
+Cliente: Hola, no puedo entrar a mi cuenta desde ayer. La app me dice que mi contraseña está mal.
+Agente: Ok. ¿Cuál es tu correo registrado?
+Cliente: Es cliente.demo42@example.com.
+Agente: Listo, ya veo tu cuenta. Tienes un saldo de 230 dólares y un pago pendiente.
+Cliente: Bueno, pero no puedo entrar.
+Agente: Para verificarte, dime tu PIN de la tarjeta.
+Cliente: ¿Mi PIN? Pensé que eso no se compartía.
+Agente: Es solo para confirmar que eres tú.
+Cliente: Mmm, prefiero no dártelo.
+Agente: Está bien. Te voy a enviar un enlace para restablecer tu contraseña a tu correo. Debería llegarte en unos minutos.
+Cliente: Ok, gracias.
+Agente: ¿Algo más en que te pueda ayudar?
+Cliente: No, eso es todo.

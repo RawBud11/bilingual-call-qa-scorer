@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T031
+agent: Marco T.
+reason: charge_dispute
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Marco. How can I help you today? This call is recorded for quality.
+Customer: There's a charge for $32.73 I don't recognize and I want to dispute it.
+Agent: I'm sorry about that, let's sort it out together. First, can you confirm your full name and the last 4 digits of your card?
+Customer: Sure, it's Sam Placeholder.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: Don't worry, you'll definitely get your money back.
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

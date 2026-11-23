@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T036
+agent: Sofía R.
+reason: account_access
+channel: phone
+
+Agente: ¿Aló? Esta llamada es grabada con fines de calidad.
+Cliente: No puedo entrar a mi cuenta desde ayer.
+Agente: Siento mucho la molestia, lo resolvemos juntos. ¿Me confirmas el PIN de tu tarjeta?
+Cliente: Mmm, no sé si debo compartir eso.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Lo vamos a revisar en algún momento.
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

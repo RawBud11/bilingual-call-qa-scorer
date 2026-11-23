@@ -1,0 +1,18 @@
+# Synthetic call transcript for the demo. Puentara is a fictional company; every name, email and number is made up.
+call_id: C006
+agent: Marco T.
+reason: transfer_failed_pending
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Marco. Te aviso que esta llamada es grabada con fines de calidad. ¿En qué te puedo ayudar?
+Cliente: Hola Marco. Mandé una transferencia de 150 dólares a mi hermana el lunes y todavía sale pendiente.
+Agente: Lamento la espera, entiendo que es dinero que ella necesita. Lo reviso contigo. Para verificar tu identidad, ¿me confirmas tu nombre completo y tu correo registrado?
+Cliente: Luis Muestra, luis.demo15@example.com. Y por si acaso, mi tarjeta es 0000 4821 7310 5596.
+Agente: Gracias, Luis. Por favor no me compartas el número de tu tarjeta; nunca te lo vamos a pedir por teléfono. Con tu nombre y tu correo es suficiente.
+Cliente: Ah, perdón.
+Agente: No te preocupes. Ya veo la transferencia: está en revisión porque es la primera vez que le envías dinero a esta persona.
+Cliente: ¿Y cuándo le llega?
+Agente: Normalmente la revisión termina en 1 día hábil. Te va a llegar una notificación en la app cuando se libere. ¿Te queda claro?
+Cliente: Sí, gracias.
+Agente: Con gusto, Luis. ¿Hay algo más en que te pueda ayudar?
+Cliente: No, eso es todo.

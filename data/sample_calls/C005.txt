@@ -1,0 +1,18 @@
+# Synthetic call transcript for the demo. Puentara is a fictional company; every name, email and number is made up.
+call_id: C005
+agent: Sofía R.
+reason: fees
+channel: phone
+
+Agent: Puentara, this is Sofia. This call is recorded. What do you need?
+Customer: Hi. I was charged a $4.99 fee on my transfer to Mexico and nobody told me about it. I'm pretty upset.
+Agent: Fees are in the terms. Full name and date of birth?
+Customer: Uh, Sam Placeholder, July 9, 1985.
+Agent: And the email on the account?
+Customer: sam.demo7@example.com
+Agent: Okay. The $4.99 is the international transfer fee. It's shown on the review screen before you send.
+Customer: I didn't see it. Can you remove it?
+Agent: No. It's a standard fee.
+Customer: That's frustrating.
+Agent: You can check the fee table in the app under Help. Anything else?
+Customer: No.

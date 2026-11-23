@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T017
+agent: Dana P.
+reason: general_question
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Dana. How can I help you today? Just so you know, this call may be recorded.
+Customer: What are your support hours?
+Agent: I'm sorry about that, let's sort it out together. Before we look at your account, can you confirm your full name and date of birth?
+Customer: Sure, it's Jordan Sample.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: Here's what happens next: our phone line is open from 8 a.m. to 8 p.m. Eastern time. You'll get an update within 3 business days. Does that make sense?
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

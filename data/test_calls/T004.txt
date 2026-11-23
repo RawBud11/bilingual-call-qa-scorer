@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T004
+agent: Marco T.
+reason: charge_dispute
+channel: phone
+
+Agente: ¿Aló?
+Cliente: Hay un cargo de $87.27 que no reconozco y quiero disputarlo.
+Agente: Siento mucho la molestia, lo resolvemos juntos. Antes de revisar tu cuenta, ¿me confirmas tu nombre completo y tu fecha de nacimiento?
+Cliente: Claro, soy Andrés Prueba.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Ya abrí la disputa. El equipo la revisa en un plazo de 10 días hábiles y te llega un correo con el resultado. ¿Te queda claro?
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

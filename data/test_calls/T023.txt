@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T023
+agent: Iván L.
+reason: fees
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Iván. How can I help you today? This call is recorded for quality.
+Customer: Why was I charged a $4.99 fee on my transfer?
+Agent: I'm sorry about that, let's sort it out together. First, can you confirm your full name and the last 4 digits of your card?
+Customer: Sure, it's Riley Test.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: Here's what happens next: I'm sending you the fee table by email. You'll get an update within 3 business days. Does that make sense?
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T016
+agent: Iván L.
+reason: app_bug
+channel: phone
+
+Agente: ¿Aló? Te aviso que esta llamada puede ser grabada.
+Cliente: La app se congela cada vez que abro la pantalla de transferencias.
+Agente: Lamento lo que pasó, entiendo lo estresante que es. Primero, ¿me confirmas tu nombre completo y los últimos 4 dígitos de tu tarjeta?
+Cliente: Claro, soy Valeria Ejemplo. Y mi tarjeta es 0000 2160 7337 5433, por si la necesitas.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Esto es lo que sigue: reporto el congelamiento al equipo técnico. Te llega una actualización en 3 días hábiles. ¿Te queda claro?
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

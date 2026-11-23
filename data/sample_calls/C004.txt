@@ -1,0 +1,19 @@
+# Synthetic call transcript for the demo. Puentara is a fictional company; every name, email and number is made up.
+call_id: C004
+agent: Sofía R.
+reason: account_access
+channel: phone
+
+Agente: Hola, gracias por llamar a Puentara. Mi nombre es Sofía y esta llamada es grabada con fines de calidad. ¿Cómo te puedo ayudar?
+Cliente: Hola Sofía. Cambié de celular y ahora no puedo entrar a mi cuenta.
+Agente: Entiendo, es frustrante quedarse sin acceso. Te ayudo a recuperarlo. Primero necesito verificar tu identidad: ¿me confirmas tu nombre completo y tu fecha de nacimiento?
+Cliente: Sí, Valeria Ejemplo, 12 de mayo de 1992.
+Agente: Gracias, Valeria. ¿Me confirmas también los últimos 4 dígitos de tu tarjeta?
+Cliente: Terminan en 0042.
+Agente: Perfecto, ya estás verificada. Veo que el inicio de sesión falla porque el celular nuevo no está registrado.
+Cliente: Ah, ok. ¿Y qué hago?
+Agente: Te acabo de enviar un enlace a tu correo registrado. Ábrelo en el celular nuevo y sigue los pasos para registrarlo. Por seguridad, nunca te vamos a pedir tu contraseña ni códigos por teléfono.
+Cliente: Listo, ya me llegó el correo.
+Agente: Excelente. Si en 24 horas no puedes entrar, vuelve a llamarnos y lo revisamos. ¿Te quedó claro el proceso?
+Cliente: Sí, muy claro. Gracias.
+Agente: Con gusto, Valeria. Que tengas buen día.

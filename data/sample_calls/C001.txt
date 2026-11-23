@@ -1,0 +1,19 @@
+# Synthetic call transcript for the demo. Puentara is a fictional company; every name, email and number is made up.
+call_id: C001
+agent: Dana P.
+reason: card_lost_stolen
+channel: phone
+
+Agent: Thank you for calling Puentara, my name is Dana. Just so you know, this call is recorded for quality. How can I help you today?
+Customer: Hi Dana. I think I lost my debit card. I had it at a coffee shop this morning and now it's gone.
+Agent: I'm sorry, that's stressful. Let's lock it down right away. First I need to verify your identity: can you tell me your full name and date of birth?
+Customer: Sure, it's Alex Demo, March 3, 1990.
+Agent: Thank you, Alex. I also just sent a confirmation prompt to your Puentara app. Can you tap Approve?
+Customer: Okay, done.
+Agent: Perfect, you're verified. I see the card ending in 0042. I've frozen it now, so nobody can use it.
+Customer: Thank you. I don't see any charges I don't recognize, but I'm worried.
+Agent: That makes sense. I'm transferring you to our security team now so they can review recent activity and order your replacement card. The new card usually arrives in 5 to 7 business days.
+Customer: Okay, that works.
+Agent: Just to recap: your card is frozen, security will check your recent activity, and your new card ships after that. Does that sound clear?
+Customer: Yes, that's clear. Thanks.
+Agent: You're welcome, Alex. Please hold while I connect you with security.

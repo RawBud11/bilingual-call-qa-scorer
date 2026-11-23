@@ -1,0 +1,19 @@
+# Synthetic call transcript for the demo. Puentara is a fictional company; every name, email and number is made up.
+call_id: C003
+agent: Dana P.
+reason: charge_dispute
+channel: phone
+
+Agent: Thanks for calling Puentara, this is Dana. This call may be recorded for quality and training. How can I help?
+Customer: Hi, there's a charge for $89.99 from an online store I've never heard of. I want to dispute it.
+Agent: I'm sorry about that, let's look into it. Before we look at your account, can you confirm your full name and the last 4 digits of your card?
+Customer: Jordan Sample, and the last four are 0042.
+Agent: Thanks, Jordan. I also sent a confirmation prompt to your app. Please tap Approve.
+Customer: Done.
+Agent: Great, you're verified. I see the $89.99 charge from October 14. I'm opening a dispute for it now.
+Customer: Will I get my money back?
+Agent: Don't worry, you'll definitely get your money back. The dispute team reviews it within 10 business days.
+Customer: Okay, great.
+Agent: You'll get an email with your dispute number today. Is there anything else I can help with?
+Customer: No, thanks.
+Agent: Thanks for calling Puentara, Jordan. Have a good day.

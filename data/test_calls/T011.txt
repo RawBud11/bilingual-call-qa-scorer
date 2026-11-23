@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T011
+agent: Iván L.
+reason: card_lost_stolen
+channel: phone
+
+Agent: Thanks for calling Puentara, my name is Iván. How can I help you today?
+Customer: I think my card was stolen at the gym today.
+Agent: Yeah, that happens. Let me pull up your account.
+Customer: Okay.
+Agent: Thanks. I can see your account now.
+Customer: So what happens now?
+Agent: We'll look into it at some point.
+Customer: Okay, thanks.
+Agent: Thanks for calling Puentara.

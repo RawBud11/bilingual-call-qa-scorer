@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T028
+agent: Sofía R.
+reason: identity_verification
+channel: phone
+
+Agente: ¿Aló?
+Cliente: La app sigue rechazando la foto de mi identificación.
+Agente: Siento mucho la molestia, lo resolvemos juntos. Antes de revisar tu cuenta, ¿me confirmas tu nombre completo y tu fecha de nacimiento?
+Cliente: Claro, soy Andrés Prueba.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Esto es lo que sigue: envío la foto de tu identificación al equipo de verificación. Te llega una actualización en 3 días hábiles. ¿Te queda claro?
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

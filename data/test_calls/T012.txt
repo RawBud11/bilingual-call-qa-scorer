@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T012
+agent: Dana P.
+reason: transfer_failed_pending
+channel: phone
+
+Agente: ¿Aló? Esta llamada es grabada con fines de calidad.
+Cliente: Mandé $612.76 el lunes y todavía sale pendiente.
+Agente: Lamento lo que pasó, entiendo lo estresante que es. Te acabo de enviar una confirmación a la app de Puentara. ¿La puedes aprobar?
+Cliente: Claro, soy Luis Muestra. Y mi tarjeta es 0000 1699 8543 5346, por si la necesitas.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Esto es lo que sigue: le pido al equipo de pagos que revise la transferencia. Te llega una actualización en 3 días hábiles. ¿Te queda claro?
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

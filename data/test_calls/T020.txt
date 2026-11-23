@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T020
+agent: Dana P.
+reason: card_lost_stolen
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Dana. ¿En qué te puedo ayudar? Esta llamada es grabada con fines de calidad.
+Cliente: Creo que me robaron la tarjeta hoy en el gimnasio.
+Agente: Lamento lo que pasó, entiendo lo estresante que es. Primero, ¿me confirmas tu nombre completo y los últimos 4 dígitos de tu tarjeta?
+Cliente: Claro, soy Andrés Prueba.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Lo vamos a revisar en algún momento.
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

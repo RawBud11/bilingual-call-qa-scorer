@@ -1,0 +1,15 @@
+# Synthetic test call (template-generated). Puentara is a fictional company; every name and number is made up.
+call_id: T034
+agent: Sofía R.
+reason: app_bug
+channel: phone
+
+Agente: Gracias por llamar a Puentara, te habla Sofía. ¿En qué te puedo ayudar? Te aviso que esta llamada puede ser grabada.
+Cliente: La app se congela cada vez que abro la pantalla de transferencias.
+Agente: Sí, eso pasa. Primero, ¿me confirmas tu nombre completo y los últimos 4 dígitos de tu tarjeta?
+Cliente: Claro, soy Valeria Ejemplo.
+Agente: Gracias. Ya veo tu cuenta.
+Cliente: ¿Y ahora qué pasa?
+Agente: Lo vamos a revisar en algún momento.
+Cliente: Ok, gracias.
+Agente: Gracias por llamar a Puentara.

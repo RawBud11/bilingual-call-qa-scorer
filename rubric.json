@@ -1,0 +1,89 @@
+{
+  "_about": "Example rubric: replace with your own procedure. Puentara is a fictional company. Phrase lists are matched without accents or capital letters, so 'Grabada' and 'grabada' are the same. Weights are relative: they do not need to add up to 100.",
+  "company": "Puentara",
+  "items": [
+    {
+      "id": "greeting",
+      "checked_by": "rule",
+      "weight": 10,
+      "name": {"en": "Greeting", "es": "Saludo"},
+      "description": {
+        "en": "The agent says their name and the company (Puentara) and offers help.",
+        "es": "El agente dice su nombre y la empresa (Puentara) y ofrece ayuda."
+      },
+      "agent_lines_to_check": 2,
+      "phrases": {
+        "name": ["my name is", "this is", "you're speaking with", "mi nombre es", "te habla", "soy ", "hablas con"],
+        "offer_help": ["how can i help", "how may i help", "how can i assist", "what can i do for you", "en que te puedo ayudar", "en que puedo ayudarte", "como te puedo ayudar", "como puedo ayudarte"]
+      }
+    },
+    {
+      "id": "identity_verification",
+      "checked_by": "ai",
+      "weight": 20,
+      "name": {"en": "Identity verification", "es": "Verificación de identidad"},
+      "description": {
+        "en": "The agent verifies the customer BEFORE discussing account details, using only allowed factors. Not applicable on general questions that do not touch an account.",
+        "es": "El agente verifica al cliente ANTES de hablar de datos de la cuenta, solo con factores permitidos. No aplica en preguntas generales que no tocan una cuenta."
+      },
+      "not_applicable_reasons": ["general_question"],
+      "allowed_factors": {
+        "en": ["full name", "date of birth", "last 4 digits of the card", "registered email or phone number", "confirmation prompt in the Puentara app"],
+        "es": ["nombre completo", "fecha de nacimiento", "últimos 4 dígitos de la tarjeta", "correo o teléfono registrado", "confirmación en la app de Puentara"]
+      }
+    },
+    {
+      "id": "sensitive_data",
+      "checked_by": "rule",
+      "ai_can_raise": true,
+      "auto_fail": true,
+      "weight": 25,
+      "name": {"en": "Sensitive-data request", "es": "Solicitud de datos sensibles"},
+      "description": {
+        "en": "The agent never asks for a full card number, PIN, CVV/CVC, password, or a one-time code read aloud. If they do, the call gets an auto-fail flag that a reviewer must confirm.",
+        "es": "El agente nunca pide el número completo de la tarjeta, el PIN, el CVV/CVC, la contraseña ni que le lean un código de un solo uso. Si lo hace, la llamada recibe una alerta de auto-fail que un revisor debe confirmar."
+      }
+    },
+    {
+      "id": "disclosures",
+      "checked_by": "rule",
+      "weight": 15,
+      "name": {"en": "Required disclosures", "es": "Avisos obligatorios"},
+      "description": {
+        "en": "Recording notice on every call. On dispute calls: the timeline is stated and no outcome is promised.",
+        "es": "Aviso de grabación en todas las llamadas. En disputas: se indica el plazo y no se promete un resultado."
+      },
+      "recording_notice": [
+        "this call is recorded", "this call may be recorded", "this call is being recorded", "calls are recorded",
+        "recorded for quality", "recorded for training",
+        "esta llamada es grabada", "esta llamada puede ser grabada", "esta llamada esta siendo grabada",
+        "esta llamada se graba", "las llamadas se graban", "grabada con fines de calidad", "se graba con fines de calidad"
+      ],
+      "dispute_timeline": [
+        "business days", "working days", "within 10 days", "within 30 days",
+        "dias habiles", "dias laborables", "en un plazo de", "plazo de 10 dias"
+      ]
+    },
+    {
+      "id": "empathy",
+      "checked_by": "ai",
+      "weight": 15,
+      "name": {"en": "Empathy", "es": "Empatía"},
+      "description": {
+        "en": "The agent acknowledges the customer's problem and keeps a respectful tone.",
+        "es": "El agente reconoce el problema del cliente y mantiene un tono respetuoso."
+      }
+    },
+    {
+      "id": "resolution",
+      "checked_by": "ai",
+      "weight": 15,
+      "name": {"en": "Resolution and next steps", "es": "Resolución y próximos pasos"},
+      "description": {
+        "en": "Clear next steps or timeline, checks understanding, closes the call. On fraud, lost or stolen card and account takeover calls, the agent escalates or transfers to the security team.",
+        "es": "Próximos pasos o plazo claros, confirma que el cliente entendió y cierra la llamada. En llamadas de fraude, tarjeta perdida o robada, o robo de cuenta, el agente escala o transfiere al equipo de seguridad."
+      },
+      "escalation_reasons": ["card_lost_stolen"]
+    }
+  ]
+}
